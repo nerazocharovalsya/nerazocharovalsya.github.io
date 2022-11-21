@@ -278,28 +278,28 @@ a {
         width: 59vw;
     }
     .text2 {
-        text-align: right;
+        text-align: center;
         padding-right: 0.5vw;
         border-top: 2px solid #BBB244;
         color: #BBB244;
     }
     .card3{
-        transform: translate(26vw,10vh);
-        width: 28vw;
+        transform: translate(26vw,30vh);
+        width: 60vw;
         border: 2px solid #130202;
     }
     .img3 {
         padding-top: 0.5vw;
-        width: 27vw;
+        width: 59vw;
     }
     .text3 {
-        text-align: center;
+        text-align: right;
         padding-right: 0.5vw;
         border-top: 2px solid #130202;
         color: #130202;
     }
     .card4{
-        transform: translate(10vw,13vh);
+        transform: translate(10vw,30vh);
         width: 61vw;
         border: 2px solid #EA271D;
     }
@@ -314,28 +314,28 @@ a {
         color: #EA271D;
     }
     .card5{
-        transform: translate(50vw,40vh);
-        width: 41vw;
+        transform: translate(5vw,40vh);
+        width: 80vw;
         border: 2px solid #2EAFCF;
     }
     .img5 {
         padding-top: 0.5vw;
-        width: 40vw;
+        width: 79vw;
     }
     .text5 {
-        text-align: right;
-        padding-right: 0.5vw;
+        text-align: left;
+        padding-left: 0.5vw;
         border-top: 2px solid #2EAFCF;
         color: #2EAFCF;
     }
     .card6{
         transform: translate(20vw,50vh);
-        width: 41vw;
+        width: 61vw;
         border: 2px solid #BBB244;
     }
     .img6 {
         padding-top: 0.5vw;
-        width: 40vw;
+        width: 60vw;
     }
     .text6 {
         text-align: center;
