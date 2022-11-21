@@ -215,7 +215,7 @@ a {
         margin-right: 1vw;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 51vh auto 8vh;
+        grid-template-rows: 51vh 40vh 8vh;
         grid-template-areas:
         "i1"
         "t1"
@@ -234,13 +234,5 @@ a {
     }
     .buy{
         height: 7vh;
-    }
-    .text-pr-2{
-        height: 17vh;
-        font-size: small;
-        text-align: end;
-        outline: 3px dashed #EA271D;
-        outline-offset: -7px;
-        padding: 1vh;
     }
 }
