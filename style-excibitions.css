@@ -7,6 +7,7 @@
     box-sizing: border-box;
     vertical-align: center;
     align-items: center;
+    text-align: center;
 }
 a {
     margin: 20px;
@@ -26,12 +27,6 @@ a {
     align-items: center;
     justify-content: space-between;
 }
-.dobro{
-    padding-left: 0vw;
-    padding-top: 100px;
-    width: 80vw;
-    height: auto;
-}
 .top-nav {
     display: flex;
     flex-direction: row;
@@ -49,7 +44,6 @@ a {
     margin: 0;
     padding: 0;
     font-size: medium;
-    text-align: center;
 }
 
 .menu > li {
@@ -120,7 +114,6 @@ a {
         width: 100%;
         justify-content: center;
         align-items: center;
-        text-align: center;
     }
     #menu-toggle ~ .menu li {
         height: 0;
@@ -159,56 +152,10 @@ a {
         background-color: #FFFFFF;
     }
 }
-.bio{
-    padding-left: 10vw;
-    padding-right: 10vw;
-    text-align: justify;
-}
-.photo{
-    padding-top: 10vh;
-}
-.photo img{
-    width: 50vw;
-}
-.tv{
-    color: #130202;
-    font-size: xx-large;
-}
-.tn{
-    color: #130202;
-    font-size: x-large;
-    font-family: 'Inter Tight', sans-serif;
-}
-@media (max-width: 700px) {
-    .bio{
-        padding-left: 5vw;
-        padding-right: 5vw;
-        text-align: justify;
-    }
-    .photo{
-        padding-top: 5vh;
-    }
-    .photo img{
-        width: 90vw;
-    }
-    .tv{
-        color: #130202;
-        font-size: xx-large;
-    }
-    .tn{
-        color: #130202;
-        font-size: x-large;
-        font-family: 'Inter Tight', sans-serif;
-    }
-    .text a{
-        display: inline-block;
-    }
-}
-
 footer{
+    margin-top: 100vh;
     background-color: #EA271D;
     position: relative;
-    margin-top: 10vh;
 }
 .f-item-con{
     padding: 30px 10vw;
@@ -313,5 +260,49 @@ form .g-inp{
     }
     .useful-links{
         display: none;
+    }
+}
+.exhibition{
+    margin: 10vh 10vw;
+    width: 80vw;
+    height: 65vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.exhibition img{
+    position: relative;
+    z-index: 0;
+    width: 80vw;
+}
+.exh-title{
+    position: absolute;
+    z-index: 1;
+    width: 80vw;
+    height: 15vh;
+    border-top: #EA271D 3px solid;
+    border-bottom: #EA271D 3px solid;
+    color: #FFFFFF;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.hours, .tickets, .help{
+    width: 50vw;
+    height: 60vh;
+    background-color: #2EAFCF;
+    z-index: 2;
+    position: absolute;
+    margin: 5vh -25vw;
+    display: none;
+}
+@media (max-width: 700px){
+    .exh-title{
+        height: 5vh;
+    }
+    .exh-text{
+        font-size: small;
     }
 }

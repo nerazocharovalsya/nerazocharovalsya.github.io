@@ -344,3 +344,113 @@ a {
         color: #BBB244;
     }
 }
+footer{
+    background-color: #EA271D;
+    position: relative;
+    margin-top: 70vh;
+}
+.f-item-con{
+    padding: 30px 10vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "area1 area2 area3";
+    grid-gap: 1vw;
+}
+footer .app-name{
+    color: white;
+    border-left: 4px solid white;
+    border-right: 4px solid white;
+    padding: 0 1vw;
+    font-size: x-large;
+
+    grid-area: area1;
+}
+footer .app-info p{
+    color: white;
+    padding: 3vw;
+    text-align: justify;
+}
+
+footer .footer-title{
+    color: white;
+    border-left: 4px solid white;
+    border-right: 4px solid white;
+    padding: 0 1vw;
+    font-size: x-large;
+}
+footer .useful-links{
+    grid-area: area2;
+}
+footer ul{
+    color: white;
+    list-style-type: none;
+    padding: 0 1vw;
+    font-size: medium;
+}
+footer ul li{
+    cursor: pointer;
+    color: white;
+    width: fit-content;
+}
+footer ul li:hover{
+    color: #2EAFCF;
+}
+footer .cr-con{
+    background-color: #130202;
+    color: white;
+    padding: 1vh 1vw;
+    text-align: center;
+}
+.g-i-t{
+    display: grid;
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+    grid-area: area3;
+}
+.g-i-t form{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+form .g-inp{
+    padding: 4px 1vw;
+    font-size: 16px;
+    width: 90%;
+}
+#g-msg{
+    height: 105px;
+}
+.zzz{
+    background-color: #2EAFCF;
+    color: #130202;
+    text-align: justify;
+}
+.f-btn{
+    padding: 1vh 1vw;
+    background-color: #2EAFCF;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    border: 2px white;
+}
+@media (max-width: 700px){
+    .f-item-con{
+        grid-template-areas: "area1"
+    "area3";
+        padding: 30px 2vw;
+    }
+    .app-info {
+        width: 96vw;
+    }
+    .zzz{
+        background-color: #2EAFCF;
+        color: #130202;
+        text-align: justify;
+        display: flex;
+    }
+    .useful-links{
+        display: none;
+    }
+}
