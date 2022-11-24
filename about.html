@@ -9,6 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
 </head>
 <body>
 
@@ -32,7 +35,62 @@
 </header>
 
 <div class="about">
+    <div class="review">
+        <div class="r-img">
+            <img src="sapiens.png">
+        </div>
+        <div class="r-text">
+            <div class="r-text1">Любовь Шаханова</div><br>
+            <div class="r-text2">Когда я собралась на выставку Эрика Булатова в Манеже, то никаких особых эмоциональных потрясений не ожидала. А напрасно. Это не просто точнейшая фиксация жизни нескольких поколений «этой страны», сделанная из «того», ушедшего времени, попадающая в те самые болевые точки, что воспоминания оживают, будто ты почувствовал запахи прошлого.</div>
+        </div>
+    </div>
+    <div class="review">
+        <div class="r-img">
+            <img src="sapiens%20(1).png">
+        </div>
+        <div class="r-text">
+            <div class="r-text1">Андрей Игнатенко</div><br>
+            <div class="r-text2">Классика 99%
+                Всем любителям современного искусства к просмотру обязательно.
+                И даже любители классической живописи найдут для себя пару-тройку работ настоящего мастера.
+                Представлены работы 60-х, 70-х, 80-х, 90-х, 2000-х, 2013 и 2104 г.г.
+                Работы мастера в карандаше потрясают сложностью техники и реалистичностью.
+                Выставка достаточно большая и содержательная.
+            </div>
+        </div>
+    </div>
+    <div class="review">
+        <div class="r-img">
+            <img src="sapiens%20(2).png">
+        </div>
+        <div class="r-text">
+            <div class="r-text1">Мария Иванова</div><br>
+            <div class="r-text2">
+                В столичном "Манеже" открылась масштабная выставка "Эрик Булатов. Живу-Вижу". Автор, остается самым активным работающим художником в среде русской арт-эмиграции. Лучшие произведения Булатова находятся в известных частных собраниях: Екатерины и Владимира Семенихиных (фонд «Екатерина»), фонда Sepherot (Александр Смузиков).
+            </div>
+        </div>
+    </div>
+</div>
 
+<div id="panel" class="panel-container">
+    <strong>Оцените сайт</strong>
+    <div class="ratings-container">
+        <div class="rating">
+            <img src="sentiment_very_dissatisfied_FILL0_wght400_GRAD0_opsz48.png" alt="">
+            <small>Не очень</small>
+        </div>
+
+        <div class="rating">
+            <img src="sentiment_neutral_FILL0_wght400_GRAD0_opsz48.png" alt=""/>
+            <small>Средне</small>
+        </div>
+
+        <div class="rating active">
+            <img src="sentiment_very_satisfied_FILL0_wght400_GRAD0_opsz48.png" alt=""/>
+            <small>Круто</small>
+        </div>
+    </div>
+    <button class="btn" id="send">Отправить отзыв</button>
 </div>
 
 <footer>
@@ -67,5 +125,6 @@
     <div class='cr-con'>Made by nerazocharovalsya (Дмитрий Будков)</div>
 </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
